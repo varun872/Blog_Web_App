@@ -1,0 +1,44 @@
+form {
+    background: #ecf0f1; /* Soft white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2c3e50; /* Dark blue */
+}
+
+form input[type="text"],
+form textarea {
+    width: calc(100% - 16px); /* Adjusting for padding */
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7; /* Light grey */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background: #3498db; /* Blue */
+    color: #ecf0f1; /* Soft white */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #2980b9; /* Darker blue */
+}

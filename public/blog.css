@@ -1,0 +1,32 @@
+.post {
+    background: #ffffff;
+    border: 1px solid #bdc3c7; /* Light grey */
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post h2 {
+    border-bottom: 2px solid #7f8c8d; /* Grey */
+    color: #2c3e50; /* Dark blue */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.post p {
+    color: #34495e; /* Dark blue */
+}
+
+a {
+    color: #ecf0f1; /* Soft white */
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #4a69bd; /* Lighter blue */
+    color: #ecf0f1; /* Soft white */
+    text-decoration: none;
+}

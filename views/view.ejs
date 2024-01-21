@@ -1,0 +1,17 @@
+<%- include("header.ejs") %>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <% for (let title in blogPosts) { %>
+        <div class="post">
+            <h2><%= title %></h2>
+            <p><%= blogPosts[title] %></p>
+            <a href="/delete/<%= encodeURIComponent(title) %>" onclick="return confirm('Are you sure you want to delete this post?');">Delete</a>
+        </div>
+    <% } %>
+</body>
+</html>
+<%- include("footer.ejs") %>
